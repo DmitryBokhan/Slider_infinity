@@ -1,20 +1,20 @@
 .container {
 }
-.slider {
+#slider {
    width: 245px;
    height: 99px;
    border: 2px solid black;
-   margin: 30px auto;
-   overflow: hidden;
-}
-.slider-line {
-   height: 99px;
-   width: 1715px;
-   // background-color: orange;
-   display: flex;
+   margin: 0px auto;
+   // overflow: hidden;
    position: relative;
-   left: 0;
+}
+.slide-single {
+   height: 99px;
+   width: 245px;
+   position: absolute;
    transition: all ease 1s;
+   left: 0;
+   top: 0;
 }
 
 .slider-prev,

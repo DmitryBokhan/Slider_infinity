@@ -48,3 +48,4 @@ draw();
 document.onclick = left;
 
 
+;
