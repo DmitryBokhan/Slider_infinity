@@ -190,7 +190,6 @@ body._lock {
   height: 99px;
   width: 245px;
   position: absolute;
-  transition: all ease 1s;
   left: 0;
   top: 0;
 }
